@@ -1,3 +1,6 @@
+# Ignore CMake and C++ files from language stats
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
 *.h linguist-vendored
 *.cc linguist-vendored
 *.cpp linguist-vendored
